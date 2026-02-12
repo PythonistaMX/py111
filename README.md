@@ -7,17 +7,20 @@ Este curso se enfoca exclusivamente en el paradigma de Programación Orientada a
 ## Temario:
 
 * Clases y objetos.
-* Atributos y métodos.
-* Atributis y métodos especiales
+* Type Hints.
+* Atributos.
+* Métodos.
+* Atributos y métodos especiales.
 * Interfaces, implementaciones y encapsulamiento.
 * Propiedades.
 * Métodos de clase y métodos estáticos.
 * Herencia.
 * Mixins.
-* Clases abstractas.
+* Clases abstractas y Duck Typing.
+* Excepciones personalizadas.
 * Persistencia de objetos.
-* Type Hints.
 * Dataclasses.
+* Introducción a Patrones de Diseño.
 
 ## Descarga de los apuntes.
 
