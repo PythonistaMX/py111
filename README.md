@@ -1,52 +1,103 @@
-[![imagenes](imagenes/pythonista.png)](https://pythonista.mx)
+# Programación Orientada a Objetos con Python (Py111)
 
-# py111 Introducción a la programación orientada a objetos con Python 3.
+[Python](https://www.python.org/) [Codespaces](https://github.com/features/codespaces) [License](LICENSE)
 
-Este curso se enfoca exclusivamente en el paradigma de Programación Orientada a Objetos. Para una introducción formal al lenguaje Python, consulta el curso **[py101](https://github.com/PythonistaMX/py101)**.
+> Estado: ✅ Curso Activo | Nivel: Intermedio
 
-## Temario:
+Este repositorio contiene el material oficial del curso **Py111**, enfocado exclusivamente en el paradigma de Programación Orientada a Objetos (POO) con Python 3. Es la continuación directa del curso introductorio [Py101](https://github.com/PythonistaMX/py101).
 
-* Clases y objetos.
-* Type Hints.
-* Atributos.
-* Métodos.
-* Atributos y métodos especiales.
-* Interfaces, implementaciones y encapsulamiento.
-* Propiedades.
-* Métodos de clase y métodos estáticos.
-* Herencia.
-* Mixins.
-* Clases abstractas y Duck Typing.
-* Excepciones personalizadas.
-* Persistencia de objetos.
-* Dataclasses.
-* Introducción a Patrones de Diseño.
+## 🗺️ Ruta de Aprendizaje
 
-## Descarga de los apuntes.
+Este curso forma parte de la serie **Fundamentos de Python (py1xx)**:
 
-Para descargar los apuntes ejecute el siguiente comando:
-```
-git clone https://github.com/PythonistaMX/py111.git
-```
+| Curso | Título | Estado |
+| :---: | :--- | :--- |
+| **py101** | Introducción a Python 3 | Prerrequisito |
+| **py111** | **POO con Python 3** | **✅ Este curso** |
+| **py121** | Biblioteca estándar de Python | Siguiente paso |
+| **py131** | Estructuras de Datos y Algoritmia | Especialización |
+| **py141** | Automatización y Extracción de Datos | Aplicación práctica |
 
-## Ejecución del curso
+## 🚀 Acerca del Curso
 
-Este repositorio está configurado con **Devcontainers**, lo que permite ejecutar los cuadernos en un entorno aislado y preconfigurado con todo lo necesario.
+Un programa diseñado para profundizar en el diseño y arquitectura de software utilizando objetos. Al completarlo serás capaz de:
 
-### Opción 1: GitHub Codespaces (Recomendado)
+*   Comprender y aplicar los principios de la **Programación Orientada a Objetos**.
+*   Dominar el uso de **clases, objetos, métodos y atributos**.
+*   Implementar **herencia, polimorfismo y encapsulamiento** de manera efectiva.
+*   Utilizar características avanzadas como **decoradores, propiedades y mixins**.
+*   Diseñar software robusto utilizando **clases abstractas e interfaces**.
+*   Gestionar datos con **Dataclasses** y **persistencia de objetos**.
+*   Introducirte en los **patrones de diseño** más comunes.
 
-Si estás viendo este repositorio en GitHub, simplemente haz clic en el 7-2026-2026otón **Code** -> **Codespaces** -> **Create codespace on main**. Esto abrirá un entorno de VS Code en tu navegador listo para ejecutar los ejemplos.
+## 📅 Temario y Estructura
 
-### Opción 2: VS Code Local + Devcontainers
+El contenido está dividido en cuadernos (notebooks) progresivos:
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/PythonistaMX/py111.git
-   ```
-2. Abre la carpeta en VS Code.
-3. Asegúrate de tener instalada la extensión **Dev Containers** de Microsoft.
-4. Cuando VS Code detecte la configuración, haz clic en **"Reopen in Container"** (o usa la paleta de comandos con `F1` > `Dev Containers: Reopen in Container`).
+### 📚 Contenidos
 
-Esto descargará la imagen necesaria y configurará el entorno automáticamente.
-<p style="text-align: center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.</p>
-<p style="text-align: center">&copy; José Luis Chiquete Valdivieso. 2017-2026.</p>
+*   `01` - [Clases, objetos e instancias](01_clases_objetos_instancias.ipynb)
+*   `02` - [Type Hints](02_type_hints.ipynb)
+*   `03` - [Atributos](03_atributos.ipynb)
+*   `04` - [Métodos](04_metodos.ipynb)
+*   `05` - [Atributos y métodos especiales](05_atributos_y_metodos_especiales.ipynb)
+*   `06` - [Interfaces, implementaciones y encapsulamiento](06_interfaces_implementaciones_y_encapsulamiento.ipynb)
+*   `07` - [Propiedades](07_propiedades.ipynb)
+*   `08` - [Métodos de clase y estáticos](08_metodos_de_clase_y_estaticos.ipynb)
+*   `09` - [Herencia](09_herencia.ipynb)
+*   `10` - [Mixins](10_mixins.ipynb)
+*   `11` - [Clases abstractas y Duck Typing](11_clases_abstractas_y_duck_typing.ipynb)
+*   `12` - [Excepciones personalizadas](12_excepciones_personalizadas.ipynb)
+*   `13` - [Persistencia de objetos](13_persistencia_de_objetos.ipynb)
+*   `14` - [Dataclasses](14_dataclasses.ipynb)
+*   `15` - [Patrones de diseño](15_patrones_de_diseno.ipynb)
+
+## 🛠️ Instalación y Uso
+
+¡Olvídate de configurar entornos locales complejos! Este repositorio está configurado para **GitHub Codespaces**.
+
+1.  Haz clic en el botón **"Code"** (verde) arriba a la derecha.
+2.  Ve a la pestaña **"Codespaces"**.
+3.  Haz clic en **"Create codespace on main"**.
+
+El entorno se iniciará automáticamente con Python 3 y todas las extensiones necesarias listas para usar.
+
+### Ejecución Local (Opcional)
+
+Si prefieres trabajar en tu máquina:
+
+1.  **Clonar el repositorio**
+    ```bash
+    git clone https://github.com/PythonistaMX/py111.git
+    cd py111
+    ```
+
+2.  **Crear entorno virtual (Recomendado)**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # En Windows: venv\Scripts\activate
+    ```
+
+3.  **Iniciar Jupyter**
+    ```bash
+    # (Asegúrate de tener jupyter instalado o instálalo con pip install jupyter)
+    jupyter lab
+    ```
+
+## 📝 Licencia
+
+Este material es desarrollado y mantenido por José Luis Chiquete Valdivieso.
+
+Este proyecto está bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC-BY 4.0)**.
+
+Eres libre de:
+
+*   ✅ Compartir el material en cualquier medio o formato
+*   ✅ Adaptar, remezclar y crear contenido derivado
+*   ✅ Usar con fines comerciales
+
+Con la condición de:
+
+*   📌 **Atribución**: Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se han realizado cambios.
+
+Véase el archivo [LICENSE](LICENSE) para los términos completos.
