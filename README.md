@@ -15,7 +15,8 @@ Este curso forma parte de la serie **Fundamentos de Python (py1xx)**:
 | **py101** | Introducción a Python 3 | Prerrequisito |
 | **py111** | **POO con Python 3** | **✅ Este curso** |
 | **py121** | Biblioteca estándar de Python | Siguiente paso |
-| **py131** | Depuración, pruebas y TDD | Especialización |
+| **py131** | Estructuras de Datos y Algoritmia | Especialización |
+| **py141** | Automatización y Extracción de Datos | Aplicación práctica |
 
 ## 🚀 Acerca del Curso
 
