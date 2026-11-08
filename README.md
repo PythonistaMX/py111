@@ -16,7 +16,7 @@ Este curso forma parte de la serie **Fundamentos de Python (py1xx)**:
 | **py111** | **POO con Python 3** | **✅ Este curso** |
 | **py121** | Biblioteca estándar de Python | Siguiente paso |
 | **py131** | Estructuras de Datos y Algoritmia | Especialización |
-| **py141** | Automatización y Extracción de Datos | Aplicación práctica |
+| **py141** | Acceso a Datos con Python | Aplicación práctica |
 
 ## 🚀 Acerca del Curso
 
